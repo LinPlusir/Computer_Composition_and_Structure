@@ -1,0 +1,21 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sim_1/new/test.v,1683086887,verilog,,,,test,,,,,,,,
+D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/ip/data_mem/sim/data_mem.v,1683089463,verilog,,D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/ip/inst_mem/sim/inst_mem.v,,data_mem,,,,,,,,
+D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/ip/inst_mem/sim/inst_mem.v,1683089438,verilog,,D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/adder1.v,,inst_mem,,,,,,,,
+D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/adder1.v,1683085609,verilog,,D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/alu.v,,adder1,,,,,,,,
+D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/alu.v,1683087197,verilog,,D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/aludec.v,,alu,,,,,,,,
+D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/aludec.v,1683084220,verilog,,D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/controller.v,,aludec,,,,,,,,
+D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/controller.v,1683087197,verilog,,D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/datapath.v,,controller,,,,,,,,
+D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/datapath.v,1684326770,verilog,,D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/maindec.v,,datapath,,,,,,,,
+D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/maindec.v,1683338936,verilog,,D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/mips.v,,maindec,,,,,,,,
+D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/mips.v,1683086678,verilog,,D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/mux2.v,,mips,,,,,,,,
+D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/mux2.v,1683087053,verilog,,D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/pc.v,,mux2,,,,,,,,
+D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/pc.v,1683087071,verilog,,D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/regfile.v,,pc,,,,,,,,
+D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/regfile.v,1683087108,verilog,,D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/signext.v,,regfile,,,,,,,,
+D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/signext.v,1620303303,verilog,,D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/sl2.v,,signext,,,,,,,,
+D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/sl2.v,1683085245,verilog,,D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/top.v,,sl2,,,,,,,,
+D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/top.v,1683451103,verilog,,D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sim_1/new/test.v,,top,,,,,,,,

@@ -1,0 +1,324 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed May 17 20:29:53 2023
+# Process ID: 29704
+# Current directory: D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent25488 D:\ALL_Project\PCexp\Lab3_SCPU\Lab3_SCPU\Lab3_SCPU.xpr
+# Log file: D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/vivado.log
+# Journal file: D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab3/ip.coe'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:05 . Memory (MB): peak = 688.844 ; gain = 86.277
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Xilinx/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.sim/sim_1/behav/xsim/inst_mem.mif'
+INFO: [SIM-utils-43] Exported 'D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.sim/sim_1/behav/xsim/inst_mem.coe'
+INFO: [SIM-utils-43] Exported 'D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.sim/sim_1/behav/xsim/ip.coe'
+INFO: [SIM-utils-43] Exported 'D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.sim/sim_1/behav/xsim/inst_mem.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/ip/data_mem/sim/data_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/ip/inst_mem/sim/inst_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/adder1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/aludec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aludec
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/maindec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module maindec
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/mips.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/pc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/signext.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signext
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/sl2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sl2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 3081f28bc91048ea82f16f61d0540c63 --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.maindec
+Compiling module xil_defaultlib.aludec
+Compiling module xil_defaultlib.controller
+Compiling module xil_defaultlib.signext
+Compiling module xil_defaultlib.mux2(size=32)
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.mux2(size=5)
+Compiling module xil_defaultlib.sl2
+Compiling module xil_defaultlib.pc
+Compiling module xil_defaultlib.adder1
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.mips
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="art...
+Compiling module xil_defaultlib.inst_mem
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="art...
+Compiling module xil_defaultlib.data_mem
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.sim/sim_1/behav/xsim/xsim.dir/test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Wed May 17 20:33:01 2023...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 745.434 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -view {D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/test_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+open_wave_config D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/test_behav.wcfg
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module test.dut.imem.inst.native_mem_mapped_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module test.dut.dmem.inst.native_mem_mapped_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+&4====         x
+&4====         x
+&4====         x
+&4====         x
+&4====         x
+&4====         x
+&4====         x
+&4====         x
+&4====         x
+&4====         x
+&4====         x
+&4====         x
+&4====         x
+&4====         x
+&4====         x
+&4====         7
+&4====         7
+&4====         7
+&4====         7
+&4====         0
+&4====         0
+&4====         1
+&4====         1
+&4====         1
+&4====         1
+&4====         1
+&4====         1
+Simulation succeeded
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 787.137 ; gain = 41.703
+save_wave_config {D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/test_behav.wcfg}
+save_wave_config {D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/test_behav.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 829.332 ; gain = 0.000
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Xilinx/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.sim/sim_1/behav/xsim/inst_mem.mif'
+INFO: [SIM-utils-43] Exported 'D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.sim/sim_1/behav/xsim/inst_mem.coe'
+INFO: [SIM-utils-43] Exported 'D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.sim/sim_1/behav/xsim/ip.coe'
+INFO: [SIM-utils-43] Exported 'D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.sim/sim_1/behav/xsim/inst_mem.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/ip/data_mem/sim/data_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/ip/inst_mem/sim/inst_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/adder1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/aludec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aludec
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/maindec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module maindec
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/mips.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/pc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/signext.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signext
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/sl2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sl2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 3081f28bc91048ea82f16f61d0540c63 --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.maindec
+Compiling module xil_defaultlib.aludec
+Compiling module xil_defaultlib.controller
+Compiling module xil_defaultlib.signext
+Compiling module xil_defaultlib.mux2(size=32)
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.mux2(size=5)
+Compiling module xil_defaultlib.sl2
+Compiling module xil_defaultlib.pc
+Compiling module xil_defaultlib.adder1
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.mips
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="art...
+Compiling module xil_defaultlib.inst_mem
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="art...
+Compiling module xil_defaultlib.data_mem
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -view {D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/test_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+open_wave_config D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/test_behav.wcfg
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module test.dut.imem.inst.native_mem_mapped_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module test.dut.dmem.inst.native_mem_mapped_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+&4====         x
+&4====         x
+&4====         x
+&4====         x
+&4====         x
+&4====         x
+&4====         x
+&4====         x
+&4====         x
+&4====         x
+&4====         x
+&4====         x
+&4====         x
+&4====         x
+&4====         x
+&4====         7
+&4====         7
+&4====         7
+&4====         7
+&4====         0
+&4====         0
+&4====         1
+&4====         1
+&4====         1
+&4====         1
+&4====         1
+&4====         1
+Simulation succeeded
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 829.332 ; gain = 0.000
+save_wave_config {D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/test_behav.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu May 18 12:07:46 2023...

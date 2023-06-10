@@ -1,0 +1,73 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed May 17 15:39:59 2023
+# Process ID: 34152
+# Current directory: D:/ALL_Project/PCexp/Lab5_new
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23520 D:\ALL_Project\PCexp\Lab5_new\Lab5_new.xpr
+# Log file: D:/ALL_Project/PCexp/Lab5_new/vivado.log
+# Journal file: D:/ALL_Project/PCexp/Lab5_new\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/ALL_Project/PCexp/Lab5_new/Lab5_new.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/Analysis.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/utils/aludefines.vh'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/EX/alu.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/utils/defines.vh'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/alu_decoder.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/axi_wrap/axi_wrap.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/ram_wrap/axi_wrap_ram.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/EX/branch_judge.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/ID/branch_predict_1_sim_netlist.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/bridge_1x2.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/bridge_2x1.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/cache.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/CONFREG/confreg.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/MEM/cp0_reg.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/cpu_axi_interface.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/d_cache_wb_2way.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/d_sram_to_sram_like.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/datapath.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/EX/div_radix2.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/PIPE/ex_mem.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/MEM/exception.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/hazard.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/MEM/hilo_reg.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/i_cache.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/i_sram_to_sram_like.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/PIPE/id_ex.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/PIPE/if_id.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/ID/imm_ext.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/utils/inst_ascii_decoder.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/ID/jump_predict.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/main_decoder.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/MEM/mem_ctrl.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/PIPE/mem_wb.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/mips_core.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/mmu.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/utils/mux4.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/utils/mux8.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/mycpu_top.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/IF/pc_ctrl_1_sim_netlist.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/IF/pc_reg.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/ID/regfile.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/soc_axi_lite_top.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/d_cache_wb.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/d_cache_wb_4way_fLRU.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/d_cache_wt.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/EX/div_self_align.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/utils/mux2.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/EX/my_mul.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/utils/decoder3x8.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/utils/decoder2x4.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/utils/encoder4x2.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soft/cache_lab/obj/shell1/axi_ram.coe'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.3/data/ip'.
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed May 17 15:40:40 2023...

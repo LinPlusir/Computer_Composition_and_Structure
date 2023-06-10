@@ -1,0 +1,508 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed May  3 12:44:16 2023
+# Process ID: 25184
+# Current directory: D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8744 D:\ALL_Project\PCexp\Lab3_SCPU\Lab3_SCPU\Lab3_SCPU.xpr
+# Log file: D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/vivado.log
+# Journal file: D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/ALL_Project/PCexp/Lab3/lab3/data_mem.coe'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.3/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Xilinx/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.sim/sim_1/behav/xsim/inst_mem.mif'
+INFO: [SIM-utils-43] Exported 'D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.sim/sim_1/behav/xsim/inst_mem.coe'
+INFO: [SIM-utils-43] Exported 'D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.sim/sim_1/behav/xsim/ip.coe'
+INFO: [SIM-utils-43] Exported 'D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.sim/sim_1/behav/xsim/data_mem.coe'
+INFO: [SIM-utils-43] Exported 'D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.sim/sim_1/behav/xsim/inst_mem.coe'
+INFO: [SIM-utils-43] Exported 'D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.sim/sim_1/behav/xsim/data_mem.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/ip/data_mem/sim/data_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/ip/inst_mem/sim/inst_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/adder1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/aludec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aludec
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/maindec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module maindec
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/mips.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/pc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/signext.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signext
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/sl2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sl2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 3081f28bc91048ea82f16f61d0540c63 --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.maindec
+Compiling module xil_defaultlib.aludec
+Compiling module xil_defaultlib.controller
+Compiling module xil_defaultlib.signext
+Compiling module xil_defaultlib.mux2(size=32)
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.mux2(size=5)
+Compiling module xil_defaultlib.sl2
+Compiling module xil_defaultlib.pc
+Compiling module xil_defaultlib.adder1
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.mips
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="art...
+Compiling module xil_defaultlib.inst_mem
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="art...
+Compiling module xil_defaultlib.data_mem
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.sim/sim_1/behav/xsim/xsim.dir/test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Wed May  3 12:44:45 2023...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# log_wave -r /
+# run 4000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module test.dut.imem.inst.native_mem_mapped_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module test.dut.dmem.inst.native_mem_mapped_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+&4====         x
+&4====         x
+&4====         x
+&4====         x
+&4====         x
+&4====         x
+&4====         x
+&4====         x
+&4====         x
+&4====         x
+&4====         x
+&4====         x
+&4====         x
+&4====         x
+&4====         x
+&4====         7
+&4====         7
+&4====         7
+&4====         7
+&4====         0
+&4====         0
+&4====         1
+&4====         1
+&4====         1
+&4====         1
+&4====         1
+&4====         1
+Simulation succeeded
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 4000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 750.188 ; gain = 36.066
+save_wave_config {D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/test_behav.wcfg}
+add_files -fileset sim_1 -norecurse D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/test_behav.wcfg
+set_property xsim.view D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/test_behav.wcfg [get_filesets sim_1]
+launch_runs synth_1 -jobs 6
+[Wed May  3 12:45:55 2023] Launched synth_1...
+Run output will be captured here: D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.runs/synth_1/runme.log
+export_ip_user_files -of_objects  [get_files D:/ALL_Project/PCexp/Lab3/lab3/data_mem.coe] -no_script -reset -force -quiet
+remove_files  D:/ALL_Project/PCexp/Lab3/lab3/data_mem.coe
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+[Wed May  3 12:46:33 2023] Launched synth_1...
+Run output will be captured here: D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+[Wed May  3 12:48:37 2023] Launched synth_1...
+Run output will be captured here: D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.runs/synth_1/runme.log
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+INFO: [IP_Flow 19-3484] Absolute path of file 'd:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/ip/inst_mem/inst_mem.coe' provided. It will be converted relative to IP Instance files '../../../../Lab3_SCPU.srcs/sources_1/ip/inst_mem/inst_mem.coe'
+INFO: [IP_Flow 19-3484] Absolute path of file 'd:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/ip/inst_mem/inst_mem.coe' provided. It will be converted relative to IP Instance files '../../../../Lab3_SCPU.srcs/sources_1/ip/inst_mem/inst_mem.coe'
+INFO: [IP_Flow 19-3484] Absolute path of file 'd:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/ip/inst_mem/inst_mem.coe' provided. It will be converted relative to IP Instance files '../../../../Lab3_SCPU.srcs/sources_1/ip/inst_mem/inst_mem.coe'
+set_property -dict [list CONFIG.Coe_File {d:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/ip/inst_mem/inst_mem.coe}] [get_ips inst_mem]
+INFO: [IP_Flow 19-3484] Absolute path of file 'd:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/ip/inst_mem/inst_mem.coe' provided. It will be converted relative to IP Instance files 'inst_mem.coe'
+generate_target all [get_files  D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/ip/inst_mem/inst_mem.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'inst_mem'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'inst_mem'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'inst_mem'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'inst_mem'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'inst_mem'...
+catch { config_ip_cache -export [get_ips -all inst_mem] }
+export_ip_user_files -of_objects [get_files D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/ip/inst_mem/inst_mem.xci] -no_script -sync -force -quiet
+launch_runs -jobs 6 inst_mem_synth_1
+WARNING: [Vivado 12-821] No runs matched 'inst_mem_synth_1'
+ERROR: [Common 17-162] Invalid option value specified for '-runs'.
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+[Wed May  3 12:50:11 2023] Launched synth_1...
+Run output will be captured here: D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.runs/synth_1/runme.log
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+delete_ip_run [get_files -of_objects [get_fileset inst_mem] D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/ip/inst_mem/inst_mem.xci]
+INFO: [Project 1-386] Moving file 'D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/ip/inst_mem/inst_mem.xci' from fileset 'inst_mem' to fileset 'sources_1'.
+set_property generate_synth_checkpoint false [get_files  D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/ip/inst_mem/inst_mem.xci]
+generate_target all [get_files  D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/ip/inst_mem/inst_mem.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'inst_mem'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'inst_mem'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'inst_mem'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'inst_mem'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'inst_mem'...
+export_ip_user_files -of_objects [get_files D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/ip/inst_mem/inst_mem.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/ip/inst_mem/inst_mem.xci] -directory D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.ip_user_files/sim_scripts -ip_user_files_dir D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.ip_user_files -ipstatic_source_dir D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.cache/compile_simlib/modelsim} {questa=D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.cache/compile_simlib/questa} {riviera=D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.cache/compile_simlib/riviera} {activehdl=D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+update_compile_order -fileset sources_1
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+set_property -dict [list CONFIG.Enable_32bit_Address {true} CONFIG.Use_Byte_Write_Enable {true} CONFIG.Byte_Size {8} CONFIG.Fill_Remaining_Memory_Locations {false} CONFIG.Use_RSTA_Pin {true} CONFIG.EN_SAFETY_CKT {true}] [get_ips data_mem]
+delete_ip_run [get_files -of_objects [get_fileset data_mem] D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/ip/data_mem/data_mem.xci]
+INFO: [Project 1-386] Moving file 'D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/ip/data_mem/data_mem.xci' from fileset 'data_mem' to fileset 'sources_1'.
+set_property generate_synth_checkpoint false [get_files  D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/ip/data_mem/data_mem.xci]
+generate_target all [get_files  D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/ip/data_mem/data_mem.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'data_mem'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'data_mem'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'data_mem'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'data_mem'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'data_mem'...
+export_ip_user_files -of_objects [get_files D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/ip/data_mem/data_mem.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/ip/data_mem/data_mem.xci] -directory D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.ip_user_files/sim_scripts -ip_user_files_dir D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.ip_user_files -ipstatic_source_dir D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.cache/compile_simlib/modelsim} {questa=D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.cache/compile_simlib/questa} {riviera=D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.cache/compile_simlib/riviera} {activehdl=D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Xilinx/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.sim/sim_1/behav/xsim/inst_mem.mif'
+INFO: [SIM-utils-43] Exported 'D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.sim/sim_1/behav/xsim/inst_mem.coe'
+INFO: [SIM-utils-43] Exported 'D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.sim/sim_1/behav/xsim/ip.coe'
+INFO: [SIM-utils-43] Exported 'D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.sim/sim_1/behav/xsim/data_mem.coe'
+INFO: [SIM-utils-43] Exported 'D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.sim/sim_1/behav/xsim/inst_mem.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/ip/data_mem/sim/data_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/ip/inst_mem/sim/inst_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/adder1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/aludec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aludec
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/maindec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module maindec
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/mips.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/pc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/signext.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signext
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/sl2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sl2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 3081f28bc91048ea82f16f61d0540c63 --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.maindec
+Compiling module xil_defaultlib.aludec
+Compiling module xil_defaultlib.controller
+Compiling module xil_defaultlib.signext
+Compiling module xil_defaultlib.mux2(size=32)
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.mux2(size=5)
+Compiling module xil_defaultlib.sl2
+Compiling module xil_defaultlib.pc
+Compiling module xil_defaultlib.adder1
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.mips
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="art...
+Compiling module xil_defaultlib.inst_mem
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="art...
+Compiling module xil_defaultlib.data_mem
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -view {D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/test_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+open_wave_config D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/test_behav.wcfg
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# log_wave -r /
+# run 4000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module test.dut.imem.inst.native_mem_mapped_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module test.dut.dmem.inst.native_mem_mapped_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+&4====         x
+&4====         x
+&4====         x
+&4====         x
+&4====         x
+&4====         x
+&4====         x
+&4====         x
+&4====         x
+&4====         x
+&4====         x
+&4====         x
+&4====         x
+&4====         x
+&4====         x
+&4====         7
+&4====         7
+&4====         7
+&4====         7
+&4====         0
+&4====         0
+&4====         1
+&4====         1
+&4====         1
+&4====         1
+&4====         1
+&4====         1
+Simulation succeeded
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 4000ns
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.runs/synth_1
+
+launch_runs synth_1 -jobs 6
+[Wed May  3 12:51:25 2023] Launched synth_1...
+Run output will be captured here: D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.runs/synth_1/runme.log
+export_ip_user_files -of_objects  [get_files D:/ALL_Project/PCexp/Lab3/data_mem.coe] -no_script -reset -force -quiet
+remove_files  D:/ALL_Project/PCexp/Lab3/data_mem.coe
+export_ip_user_files -of_objects  [get_files D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/ip/inst_mem/inst_mem.coe] -no_script -reset -force -quiet
+remove_files  D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/sources_1/ip/inst_mem/inst_mem.coe
+launch_runs impl_1 -jobs 6
+[Wed May  3 15:40:46 2023] Launched impl_1...
+Run output will be captured here: D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 51 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.168 . Memory (MB): peak = 1170.695 ; gain = 1.238
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.169 . Memory (MB): peak = 1170.781 ; gain = 1.324
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1170.812 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 13 instances were transformed.
+  LDCP => LDCP (GND, LUT3, LUT3, LDCE, VCC): 1 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 12 instances
+
+open_run: Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 1295.277 ; gain = 229.461
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Wed May  3 16:20:42 2023] Launched impl_1...
+Run output will be captured here: D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.runs/synth_1
+
+launch_runs synth_1 -jobs 6
+[Wed May  3 16:23:49 2023] Launched synth_1...
+Run output will be captured here: D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 6
+[Wed May  3 16:25:47 2023] Launched impl_1...
+Run output will be captured here: D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.runs/impl_1/runme.log
+refresh_design
+INFO: [Netlist 29-17] Analyzing 51 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.201 . Memory (MB): peak = 1834.812 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.201 . Memory (MB): peak = 1834.812 ; gain = 0.000
+refresh_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:10 . Memory (MB): peak = 2233.836 ; gain = 474.676
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+set_property is_loc_fixed true [get_ports [list  {instr[31]} {instr[30]} {instr[29]} {instr[28]} {instr[27]} {instr[26]} {instr[25]} {instr[24]} {instr[23]} {instr[22]} {instr[21]} {instr[20]} {instr[19]} {instr[18]} {instr[17]} {instr[16]} {instr[15]} {instr[14]} {instr[13]} {instr[12]} {instr[11]} {instr[10]} {instr[9]} {instr[8]} {instr[7]} {instr[6]} {instr[5]} {instr[4]} {instr[3]} {instr[2]} {instr[1]} {instr[0]}]]
+set_property is_loc_fixed true [get_ports [list  clk]]
+set_property is_loc_fixed true [get_ports [list  {aluout[31]} {aluout[30]} {aluout[29]} {aluout[28]} {aluout[27]} {aluout[26]} {aluout[25]} {aluout[24]} {aluout[23]} {aluout[22]} {aluout[21]} {aluout[20]} {aluout[19]} {aluout[18]} {aluout[17]} {aluout[16]} {aluout[15]} {aluout[14]} {aluout[13]} {aluout[12]} {aluout[11]} {aluout[10]} {aluout[9]} {aluout[8]} {aluout[7]} {aluout[6]} {aluout[5]} {aluout[4]} {aluout[3]} {aluout[2]} {aluout[1]} {aluout[0]}]]
+set_property is_loc_fixed true [get_ports [list  {pc[31]} {pc[30]} {pc[29]} {pc[28]} {pc[27]} {pc[26]} {pc[25]} {pc[24]} {pc[23]} {pc[22]} {pc[21]} {pc[20]} {pc[19]} {pc[18]} {pc[17]} {pc[16]} {pc[15]} {pc[14]} {pc[13]} {pc[12]} {pc[11]} {pc[10]} {pc[9]} {pc[8]} {pc[7]} {pc[6]} {pc[5]} {pc[4]} {pc[3]} {pc[2]} {pc[1]} {pc[0]}]]
+set_property is_loc_fixed true [get_ports [list  {writedata[31]} {writedata[30]} {writedata[29]} {writedata[28]} {writedata[27]} {writedata[26]} {writedata[25]} {writedata[24]} {writedata[23]} {writedata[22]} {writedata[21]} {writedata[20]} {writedata[19]} {writedata[18]} {writedata[17]} {writedata[16]} {writedata[15]} {writedata[14]} {writedata[13]} {writedata[12]} {writedata[11]} {writedata[10]} {writedata[9]} {writedata[8]} {writedata[7]} {writedata[6]} {writedata[5]} {writedata[4]} {writedata[3]} {writedata[2]} {writedata[1]} {writedata[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list clk]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {aluout[31]} {aluout[30]} {aluout[29]} {aluout[28]} {aluout[27]} {aluout[26]} {aluout[25]} {aluout[24]} {aluout[23]} {aluout[22]} {aluout[21]} {aluout[20]} {aluout[19]} {aluout[18]} {aluout[17]} {aluout[16]} {aluout[15]} {aluout[14]} {aluout[13]} {aluout[12]} {aluout[11]} {aluout[10]} {aluout[9]} {aluout[8]} {aluout[7]} {aluout[6]} {aluout[5]} {aluout[4]} {aluout[3]} {aluout[2]} {aluout[1]} {aluout[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {instr[31]} {instr[30]} {instr[29]} {instr[28]} {instr[27]} {instr[26]} {instr[25]} {instr[24]} {instr[23]} {instr[22]} {instr[21]} {instr[20]} {instr[19]} {instr[18]} {instr[17]} {instr[16]} {instr[15]} {instr[14]} {instr[13]} {instr[12]} {instr[11]} {instr[10]} {instr[9]} {instr[8]} {instr[7]} {instr[6]} {instr[5]} {instr[4]} {instr[3]} {instr[2]} {instr[1]} {instr[0]}]]
+set_property IOSTANDARD LVTTL [get_ports [list {pc[31]} {pc[30]} {pc[29]} {pc[28]} {pc[27]} {pc[26]} {pc[25]} {pc[24]} {pc[23]} {pc[22]} {pc[21]} {pc[20]} {pc[19]} {pc[18]} {pc[17]} {pc[16]} {pc[15]} {pc[14]} {pc[13]} {pc[12]} {pc[11]} {pc[10]} {pc[9]} {pc[8]} {pc[7]} {pc[6]} {pc[5]} {pc[4]} {pc[3]} {pc[2]} {pc[1]} {pc[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {pc[31]} {pc[30]} {pc[29]} {pc[28]} {pc[27]} {pc[26]} {pc[25]} {pc[24]} {pc[23]} {pc[22]} {pc[21]} {pc[20]} {pc[19]} {pc[18]} {pc[17]} {pc[16]} {pc[15]} {pc[14]} {pc[13]} {pc[12]} {pc[11]} {pc[10]} {pc[9]} {pc[8]} {pc[7]} {pc[6]} {pc[5]} {pc[4]} {pc[3]} {pc[2]} {pc[1]} {pc[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {writedata[31]} {writedata[30]} {writedata[29]} {writedata[28]} {writedata[27]} {writedata[26]} {writedata[25]} {writedata[24]} {writedata[23]} {writedata[22]} {writedata[21]} {writedata[20]} {writedata[19]} {writedata[18]} {writedata[17]} {writedata[16]} {writedata[15]} {writedata[14]} {writedata[13]} {writedata[12]} {writedata[11]} {writedata[10]} {writedata[9]} {writedata[8]} {writedata[7]} {writedata[6]} {writedata[5]} {writedata[4]} {writedata[3]} {writedata[2]} {writedata[1]} {writedata[0]}]]
+set_property is_loc_fixed true [get_ports [list  memwrite]]
+set_property is_loc_fixed true [get_ports [list  rst]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list memwrite]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list rst]]
+set_property target_constrs_file D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.srcs/constrs_1/new/lab3.xdc [current_fileset -constrset]
+save_constraints -force
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2441.285 ; gain = 0.000
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Wed May  3 16:28:29 2023] Launched impl_1...
+Run output will be captured here: D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.3
+  **** Build date : Dec  7 2018-00:40:27
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292AA7B6AA
+set_property PROGRAM.FILE {D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/ALL_Project/PCexp/Lab3_SCPU/Lab3_SCPU/Lab3_SCPU.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292AA7B6AA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292AA7B6AA
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed May  3 16:31:32 2023...

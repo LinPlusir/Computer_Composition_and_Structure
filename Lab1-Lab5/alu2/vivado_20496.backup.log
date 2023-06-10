@@ -1,0 +1,42 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun May  7 17:42:43 2023
+# Process ID: 20496
+# Current directory: D:/ALL_Project/PCexp/alu2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20952 D:\ALL_Project\PCexp\alu2\alu2.xpr
+# Log file: D:/ALL_Project/PCexp/alu2/vivado.log
+# Journal file: D:/ALL_Project/PCexp/alu2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/ALL_Project/PCexp/alu2/alu2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.3/data/ip'.
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'open_project' was cancelled
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/ALL_Project/PCexp/alu2/alu2.sim/sim_1/behav/xsim'
+invalid command name "xcs_control_pre_compile_flow"
+    while executing
+"xcs_control_pre_compile_flow a_sim_vars(b_use_static_lib)"
+    (procedure "tclapp::xilinx::xsim::setup" line 13)
+    invoked from within
+"tclapp::xilinx::xsim::setup { -simset sim_1 -mode behavioral -run_dir D:/ALL_Project/PCexp/alu2/alu2.sim/sim_1/behav/xsim -int_os_type 64 -int_debug_m..."
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/ALL_Project/PCexp/alu2/alu2.sim/sim_1/behav/xsim'
+invalid command name "xcs_control_pre_compile_flow"
+    while executing
+"xcs_control_pre_compile_flow a_sim_vars(b_use_static_lib)"
+    (procedure "tclapp::xilinx::xsim::setup" line 13)
+    invoked from within
+"tclapp::xilinx::xsim::setup { -simset sim_1 -mode behavioral -run_dir D:/ALL_Project/PCexp/alu2/alu2.sim/sim_1/behav/xsim -int_os_type 64 -int_debug_m..."
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun May  7 17:51:33 2023...

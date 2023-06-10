@@ -1,0 +1,411 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun May  7 17:42:59 2023
+# Process ID: 15632
+# Current directory: D:/ALL_Project/PCexp/Lab2_IF_ID
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15180 D:\ALL_Project\PCexp\Lab2_IF_ID\Lab2_IF_ID.xpr
+# Log file: D:/ALL_Project/PCexp/Lab2_IF_ID/vivado.log
+# Journal file: D:/ALL_Project/PCexp/Lab2_IF_ID\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.3/data/ip'.
+update_compile_order -fileset sources_1
+reset_run inst_ram_synth_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'inst_ram'...
+[Sun May  7 17:46:31 2023] Launched inst_ram_synth_1, synth_1...
+Run output will be captured here:
+inst_ram_synth_1: D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.runs/inst_ram_synth_1/runme.log
+synth_1: D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.runs/synth_1/runme.log
+[Sun May  7 17:46:31 2023] Launched impl_1...
+Run output will be captured here: D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Sun May  7 17:50:22 2023] Launched impl_1...
+Run output will be captured here: D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+generate_target Simulation [get_files D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.srcs/sources_1/ip/inst_ram/inst_ram.xci]
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'inst_ram'...
+export_ip_user_files -of_objects [get_files D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.srcs/sources_1/ip/inst_ram/inst_ram.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.srcs/sources_1/ip/inst_ram/inst_ram.xci] -directory D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.ip_user_files/sim_scripts -ip_user_files_dir D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.ip_user_files -ipstatic_source_dir D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.cache/compile_simlib/modelsim} {questa=D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.cache/compile_simlib/questa} {riviera=D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.cache/compile_simlib/riviera} {activehdl=D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Xilinx/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.sim/sim_1/behav/xsim/inst_ram.mif'
+INFO: [SIM-utils-43] Exported 'D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.sim/sim_1/behav/xsim/inst_ram.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.srcs/sources_1/ip/inst_ram/sim/inst_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.srcs/sources_1/new/aludec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aludec
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.srcs/sources_1/new/controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.srcs/sources_1/new/maindec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module maindec
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.srcs/sources_1/new/pc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto ecb2b8b3f7904c728d352b1e04012f71 --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 8 for port 'addra' [D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.srcs/sim_1/new/test.v:17]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.pc
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="art...
+Compiling module xil_defaultlib.inst_ram
+Compiling module xil_defaultlib.maindec
+Compiling module xil_defaultlib.aludec
+Compiling module xil_defaultlib.controller
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.sim/sim_1/behav/xsim/xsim.dir/test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun May  7 17:50:49 2023...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -view {D:/ALL_Project/PCexp/Lab2_IF_ID/test_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+open_wave_config D:/ALL_Project/PCexp/Lab2_IF_ID/test_behav.wcfg
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module test.blk.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: xxx
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: xxx
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: xxx
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: xxx
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: xxx
+instruction: 20020005, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 1, regdst: 0, regwrite: 1, jump: 0, branch: 0, alucontrol: 010
+instruction: 00a42820, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 010
+instruction: 8c020050, memtoreg: 1, memwrite: 0, pcsrc: 0, alusrc: 1, regdst: 0, regwrite: 1, jump: 0, branch: 0, alucontrol: 010
+instruction: ac020054, memtoreg: x, memwrite: 1, pcsrc: 0, alusrc: 1, regdst: x, regwrite: 0, jump: 0, branch: 0, alucontrol: 010
+instruction: 10a7000c, memtoreg: x, memwrite: 0, pcsrc: 1, alusrc: 0, regdst: x, regwrite: 0, jump: 0, branch: 1, alucontrol: 110
+instruction: 08000013, memtoreg: x, memwrite: 0, pcsrc: x, alusrc: x, regdst: x, regwrite: 0, jump: 1, branch: x, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 773.898 ; gain = 10.406
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Xilinx/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.sim/sim_1/behav/xsim/inst_ram.mif'
+INFO: [SIM-utils-43] Exported 'D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.sim/sim_1/behav/xsim/inst_ram.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.srcs/sources_1/ip/inst_ram/sim/inst_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.srcs/sources_1/new/aludec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aludec
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.srcs/sources_1/new/controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.srcs/sources_1/new/maindec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module maindec
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.srcs/sources_1/new/pc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto ecb2b8b3f7904c728d352b1e04012f71 --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 8 for port 'addra' [D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.srcs/sim_1/new/test.v:17]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.pc
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="art...
+Compiling module xil_defaultlib.inst_ram
+Compiling module xil_defaultlib.maindec
+Compiling module xil_defaultlib.aludec
+Compiling module xil_defaultlib.controller
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -view {D:/ALL_Project/PCexp/Lab2_IF_ID/test_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+open_wave_config D:/ALL_Project/PCexp/Lab2_IF_ID/test_behav.wcfg
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module test.blk.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: xxx
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: xxx
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: xxx
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: xxx
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: xxx
+instruction: 20020005, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 1, regdst: 0, regwrite: 1, jump: 0, branch: 0, alucontrol: 010
+instruction: 10a7000c, memtoreg: x, memwrite: 0, pcsrc: 1, alusrc: 0, regdst: x, regwrite: 0, jump: 0, branch: 1, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 20020005, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 1, regdst: 0, regwrite: 1, jump: 0, branch: 0, alucontrol: 010
+instruction: 10a7000c, memtoreg: x, memwrite: 0, pcsrc: 1, alusrc: 0, regdst: x, regwrite: 0, jump: 0, branch: 1, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+instruction: 00000000, memtoreg: 0, memwrite: 0, pcsrc: 0, alusrc: 0, regdst: 1, regwrite: 1, jump: 0, branch: 0, alucontrol: 110
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun May  7 19:45:59 2023...

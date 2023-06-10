@@ -1,0 +1,14 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.srcs/sim_1/new/test.v,1683108581,verilog,,,,test,,,,,,,,
+D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.srcs/sources_1/ip/inst_ram/sim/inst_ram.v,1683453042,verilog,,D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.srcs/sources_1/new/aludec.v,,inst_ram,,,,,,,,
+D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.srcs/sources_1/new/aludec.v,1683108556,verilog,,D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.srcs/sources_1/new/controller.v,,aludec,,,,,,,,
+D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.srcs/sources_1/new/controller.v,1683108539,verilog,,D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.srcs/sources_1/new/maindec.v,,controller,,,,,,,,
+D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.srcs/sources_1/new/display.v,1683107174,verilog,,D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.srcs/sources_1/new/maindec.v,,display,,,,,,,,
+D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.srcs/sources_1/new/maindec.v,1683108544,verilog,,D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.srcs/sources_1/new/pc.v,,maindec,,,,,,,,
+D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.srcs/sources_1/new/pc.v,1683459937,verilog,,D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.srcs/sim_1/new/test.v,,pc,,,,,,,,
+D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.srcs/sources_1/new/seg7.v,1683107211,verilog,,D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.srcs/sources_1/new/top.v,,seg7,,,,,,,,
+D:/ALL_Project/PCexp/Lab2_IF_ID/Lab2_IF_ID.srcs/sources_1/new/top.v,1683107487,verilog,,,,top,,,,,,,,

@@ -1,0 +1,10 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+D:/ALL_Project/PCexp/alu2/alu2.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+D:/ALL_Project/PCexp/alu2/alu2.srcs/sim_1/new/sim.v,1679928675,verilog,,,,sim,,,,,,,,
+D:/ALL_Project/PCexp/alu2/alu2.srcs/sources_1/new/ALU.v,1679928880,verilog,,D:/ALL_Project/PCexp/alu2/alu2.srcs/sim_1/new/sim.v,,ALU,,,,,,,,
+D:/ALL_Project/PCexp/alu2/alu2.srcs/sources_1/new/display.v,1679928880,verilog,,D:/ALL_Project/PCexp/alu2/alu2.srcs/sources_1/new/seg7.v,,display,,,,,,,,
+D:/ALL_Project/PCexp/alu2/alu2.srcs/sources_1/new/seg7.v,1679928259,verilog,,D:/ALL_Project/PCexp/alu2/alu2.srcs/sources_1/new/top.v,,seg7,,,,,,,,
+D:/ALL_Project/PCexp/alu2/alu2.srcs/sources_1/new/top.v,1679929024,verilog,,,,top,,,,,,,,

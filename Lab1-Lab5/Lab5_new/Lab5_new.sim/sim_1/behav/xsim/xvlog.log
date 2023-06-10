@@ -1,0 +1,103 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/clk_pll/ip/clk_pll/clk_pll_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_pll_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/clk_pll/ip/clk_pll/clk_pll.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_pll
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/axi_ram/ip/axi_ram/sim/axi_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/axi_crossbar_1x2/ip/axi_crossbar_1x2/sim/axi_crossbar_1x2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_crossbar_1x2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/axi_clock_converter/ip/axi_clock_converter/sim/axi_clock_converter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_clock_converter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/Analysis.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Analysis
+INFO: [VRFC 10-311] analyzing module judge
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/EX/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2458] undeclared symbol alu_srl, assumed default net type wire [D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/EX/alu.v:86]
+INFO: [VRFC 10-2458] undeclared symbol alu_sra, assumed default net type wire [D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/EX/alu.v:87]
+INFO: [VRFC 10-2458] undeclared symbol alu_srl_sa, assumed default net type wire [D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/EX/alu.v:88]
+INFO: [VRFC 10-2458] undeclared symbol alu_sra_sa, assumed default net type wire [D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/EX/alu.v:89]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/alu_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/axi_wrap/axi_wrap.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_wrap
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/ram_wrap/axi_wrap_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_wrap_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/EX/branch_judge.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module branch_judge
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/ID/branch_predict_1_sim_netlist.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module branch_predict_1
+INFO: [VRFC 10-311] analyzing module branch_predict_1_branch_predict
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/bridge_1x2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bridge_1x2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/bridge_2x1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bridge_2x1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/cache.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cache
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/CONFREG/confreg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module confreg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/MEM/cp0_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cp0_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/cpu_axi_interface.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu_axi_interface
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/d_cache_wb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module d_cache
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/d_sram_to_sram_like.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module d_sram_to_sram_like
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2458] undeclared symbol stallF, assumed default net type wire [D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/datapath.v:243]
+INFO: [VRFC 10-2458] undeclared symbol stallM, assumed default net type wire [D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/datapath.v:243]
+INFO: [VRFC 10-2458] undeclared symbol mem_read_enE, assumed default net type wire [D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/datapath.v:428]
+INFO: [VRFC 10-2458] undeclared symbol mem_write_enE, assumed default net type wire [D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/datapath.v:429]
+INFO: [VRFC 10-2458] undeclared symbol mem_addrE, assumed default net type wire [D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/datapath.v:462]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/EX/div_radix2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div_radix2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/PIPE/ex_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ex_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/MEM/exception.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module exception
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/hazard.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazard
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/MEM/hilo_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hilo_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/i_cache.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module i_cache
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/i_sram_to_sram_like.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module i_sram_to_sram_like
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/PIPE/id_ex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module id_ex
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/PIPE/if_id.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module if_id
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/ID/imm_ext.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imm_ext
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/utils/inst_ascii_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_ascii_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/ID/jump_predict.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jump_predict
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/main_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module main_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/MEM/mem_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/PIPE/mem_wb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_wb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/mips_core.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips_core
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/mmu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mmu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/utils/mux4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/utils/mux8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux8
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/mycpu_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mycpu_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/IF/pc_ctrl_1_sim_netlist.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc_ctrl_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/IF/pc_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/ID/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/soc_axi_lite_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module soc_axi_lite_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sim_1/imports/soc_axi_lite_loongson/testbench/mycpu_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_top

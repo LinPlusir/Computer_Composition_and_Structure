@@ -1,0 +1,1502 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat May  6 22:47:16 2023
+# Process ID: 30992
+# Current directory: C:/vivadofiles/lab4/Lab4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10944 C:\vivadofiles\lab4\Lab4\Lab4.xpr
+# Log file: C:/vivadofiles/lab4/Lab4/vivado.log
+# Journal file: C:/vivadofiles/lab4/Lab4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/vivadofiles/lab4/Lab4/Lab4.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/vivadofiles/lab4/mipstest.coe'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'data_ram' generated file not found 'c:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/ip/data_ram/data_ram.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'data_ram' generated file not found 'c:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/ip/data_ram/data_ram_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'data_ram' generated file not found 'c:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/ip/data_ram/data_ram_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'data_ram' generated file not found 'c:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/ip/data_ram/data_ram_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'data_ram' generated file not found 'c:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/ip/data_ram/data_ram_sim_netlist.vhdl'. Please regenerate to continue.
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim/inst_ram.mif'
+INFO: [SIM-utils-43] Exported 'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim/mipstest.coe'
+INFO: [SIM-utils-43] Exported 'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim/mipstest.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/ip/data_ram/sim/data_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/ip/inst_ram/sim/inst_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/aludec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aludec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/eqcmp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eqcmp
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/flopenr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module flopenr
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/flopenrc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module flopenrc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/flopr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module flopr
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/floprc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module floprc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/hazard.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazard
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/maindec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module maindec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/mips.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/mux3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/pc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/signext.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signext
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/sl2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sl2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sim_1/imports/sim/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto ab35e0f5a4b54e28901151e07c59f61a --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 10 for port 'addra' [C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/top.v:58]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.maindec
+Compiling module xil_defaultlib.aludec
+Compiling module xil_defaultlib.floprc
+Compiling module xil_defaultlib.flopr(WIDTH=3)
+Compiling module xil_defaultlib.flopr(WIDTH=2)
+Compiling module xil_defaultlib.controller
+Compiling module xil_defaultlib.pc
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.flopenr(WIDTH=32)
+Compiling module xil_defaultlib.flopenrc(WIDTH=32)
+Compiling module xil_defaultlib.signext
+Compiling module xil_defaultlib.sl2
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.mux2(WIDTH=32)
+Compiling module xil_defaultlib.eqcmp
+Compiling module xil_defaultlib.floprc(WIDTH=32)
+Compiling module xil_defaultlib.floprc(WIDTH=5)
+Compiling module xil_defaultlib.mux3(WIDTH=32)
+Compiling module xil_defaultlib.mux2(WIDTH=5)
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.flopr(WIDTH=32)
+Compiling module xil_defaultlib.flopr(WIDTH=5)
+Compiling module xil_defaultlib.hazard
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.mips
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="art...
+Compiling module xil_defaultlib.inst_ram
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="art...
+Compiling module xil_defaultlib.data_ram
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testbench_behav -key {Behavioral:sim_1:Functional:testbench} -tclbatch {testbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module testbench.dut.inst_ram.inst.native_mem_mapped_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module testbench.dut.data_ram.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+===============>Simulation succeeded
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 757.184 ; gain = 16.383
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+open_project C:/vivadofiles/dp_ram/dp_ram.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+update_compile_order -fileset sources_1
+close_project
+open_project C:/vivadofiles/ALU/ALU.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+update_compile_order -fileset sources_1
+open_project C:/vivadofiles/cpu/cpu.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/vivadofiles/lab3/ip.coe'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/vivadofiles/lab3/data_mem.coe'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/vivadofiles/cpu/data_mem.coe'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'data_mem' is locked:
+* IP definition 'Block Memory Generator (8.4)' for IP 'data_mem' (customized with software release 2019.1) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'inst_mem' is locked:
+* IP definition 'Block Memory Generator (8.4)' for IP 'inst_mem' (customized with software release 2019.1) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+update_compile_order -fileset sources_1
+current_project ALU
+close_project
+close_project
+open_project C:/vivadofiles/data_ram/data_ram.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+open_project C:/vivadofiles/dp_ram/dp_ram.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+update_compile_order -fileset sources_1
+current_project Lab4
+file mkdir C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/new
+close [ open C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/new/display.v w ]
+add_files C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/new/display.v
+update_compile_order -fileset sources_1
+close [ open C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/new/seg7.v w ]
+add_files C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/new/seg7.v
+update_compile_order -fileset sources_1
+current_project dp_ram
+close_project
+current_project Lab4
+close [ open C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/new/top_display.v w ]
+add_files C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/new/top_display.v
+update_compile_order -fileset sources_1
+current_project data_ram
+current_project Lab4
+update_compile_order -fileset sources_1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-3
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim/inst_ram.mif'
+INFO: [SIM-utils-43] Exported 'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim/mipstest.coe'
+INFO: [SIM-utils-43] Exported 'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim/mipstest.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/ip/data_ram/sim/data_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/ip/inst_ram/sim/inst_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/aludec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aludec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/eqcmp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eqcmp
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/flopenr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module flopenr
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/flopenrc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module flopenrc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/flopr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module flopr
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/floprc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module floprc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/hazard.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazard
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/maindec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module maindec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/mips.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/mux3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/pc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/signext.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signext
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/sl2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sl2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sim_1/imports/sim/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto ab35e0f5a4b54e28901151e07c59f61a --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 10 for port 'addra' [C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/top.v:58]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.maindec
+Compiling module xil_defaultlib.aludec
+Compiling module xil_defaultlib.floprc
+Compiling module xil_defaultlib.flopr(WIDTH=3)
+Compiling module xil_defaultlib.flopr(WIDTH=2)
+Compiling module xil_defaultlib.controller
+Compiling module xil_defaultlib.pc
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.flopenr(WIDTH=32)
+Compiling module xil_defaultlib.flopenrc(WIDTH=32)
+Compiling module xil_defaultlib.signext
+Compiling module xil_defaultlib.sl2
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.mux2(WIDTH=32)
+Compiling module xil_defaultlib.eqcmp
+Compiling module xil_defaultlib.floprc(WIDTH=32)
+Compiling module xil_defaultlib.floprc(WIDTH=5)
+Compiling module xil_defaultlib.mux3(WIDTH=32)
+Compiling module xil_defaultlib.mux2(WIDTH=5)
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.flopr(WIDTH=32)
+Compiling module xil_defaultlib.flopr(WIDTH=5)
+Compiling module xil_defaultlib.hazard
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.mips
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="art...
+Compiling module xil_defaultlib.inst_ram
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="art...
+Compiling module xil_defaultlib.data_ram
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testbench_behav -key {Behavioral:sim_1:Functional:testbench} -tclbatch {testbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module testbench.dut.inst_ram.inst.native_mem_mapped_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module testbench.dut.data_ram.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+===============>Simulation succeeded
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 1187.082 ; gain = 0.000
+launch_runs synth_1 -jobs 4
+[Sat May  6 23:52:26 2023] Launched data_ram_synth_1...
+Run output will be captured here: C:/vivadofiles/lab4/Lab4/Lab4.runs/data_ram_synth_1/runme.log
+[Sat May  6 23:52:26 2023] Launched synth_1...
+Run output will be captured here: C:/vivadofiles/lab4/Lab4/Lab4.runs/synth_1/runme.log
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/vivadofiles/lab4/Lab4/Lab4.ip_user_files/mipstest.coe' provided. It will be converted relative to IP Instance files '../../../../Lab4.ip_user_files/mipstest.coe'
+set_property -dict [list CONFIG.Coe_File {C:/vivadofiles/lab4/Lab4/Lab4.ip_user_files/mipstest.coe}] [get_ips inst_ram]
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/vivadofiles/lab4/Lab4/Lab4.ip_user_files/mipstest.coe' provided. It will be converted relative to IP Instance files '../../../../Lab4.ip_user_files/mipstest.coe'
+delete_ip_run [get_files -of_objects [get_fileset inst_ram] C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/ip/inst_ram/inst_ram.xci]
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/vivadofiles/lab4/Lab4/Lab4.runs/inst_ram_synth_1
+
+INFO: [Project 1-386] Moving file 'C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/ip/inst_ram/inst_ram.xci' from fileset 'inst_ram' to fileset 'sources_1'.
+set_property generate_synth_checkpoint false [get_files  C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/ip/inst_ram/inst_ram.xci]
+generate_target all [get_files  C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/ip/inst_ram/inst_ram.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'inst_ram'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'inst_ram'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'inst_ram'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'inst_ram'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'inst_ram'...
+export_ip_user_files -of_objects [get_files C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/ip/inst_ram/inst_ram.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/ip/inst_ram/inst_ram.xci] -directory C:/vivadofiles/lab4/Lab4/Lab4.ip_user_files/sim_scripts -ip_user_files_dir C:/vivadofiles/lab4/Lab4/Lab4.ip_user_files -ipstatic_source_dir C:/vivadofiles/lab4/Lab4/Lab4.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/vivadofiles/lab4/Lab4/Lab4.cache/compile_simlib/modelsim} {questa=C:/vivadofiles/lab4/Lab4/Lab4.cache/compile_simlib/questa} {riviera=C:/vivadofiles/lab4/Lab4/Lab4.cache/compile_simlib/riviera} {activehdl=C:/vivadofiles/lab4/Lab4/Lab4.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+current_project data_ram
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+current_project Lab4
+update_compile_order -fileset sources_1
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+set_property -dict [list CONFIG.Load_Init_File {false}] [get_ips data_ram]
+delete_ip_run [get_files -of_objects [get_fileset data_ram] C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/ip/data_ram/data_ram.xci]
+INFO: [Project 1-386] Moving file 'C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/ip/data_ram/data_ram.xci' from fileset 'data_ram' to fileset 'sources_1'.
+set_property generate_synth_checkpoint false [get_files  C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/ip/data_ram/data_ram.xci]
+generate_target all [get_files  C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/ip/data_ram/data_ram.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'data_ram'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'data_ram'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'data_ram'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'data_ram'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'data_ram'...
+export_ip_user_files -of_objects [get_files C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/ip/data_ram/data_ram.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/ip/data_ram/data_ram.xci] -directory C:/vivadofiles/lab4/Lab4/Lab4.ip_user_files/sim_scripts -ip_user_files_dir C:/vivadofiles/lab4/Lab4/Lab4.ip_user_files -ipstatic_source_dir C:/vivadofiles/lab4/Lab4/Lab4.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/vivadofiles/lab4/Lab4/Lab4.cache/compile_simlib/modelsim} {questa=C:/vivadofiles/lab4/Lab4/Lab4.cache/compile_simlib/questa} {riviera=C:/vivadofiles/lab4/Lab4/Lab4.cache/compile_simlib/riviera} {activehdl=C:/vivadofiles/lab4/Lab4/Lab4.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+current_project data_ram
+current_project Lab4
+update_compile_order -fileset sources_1
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim/inst_ram.mif'
+INFO: [SIM-utils-43] Exported 'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim/mipstest.coe'
+INFO: [SIM-utils-43] Exported 'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim/mipstest.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/ip/data_ram/sim/data_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/ip/inst_ram/sim/inst_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/aludec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aludec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/eqcmp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eqcmp
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/flopenr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module flopenr
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/flopenrc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module flopenrc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/flopr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module flopr
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/floprc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module floprc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/hazard.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazard
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/maindec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module maindec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/mips.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/mux3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/pc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/signext.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signext
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/sl2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sl2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sim_1/imports/sim/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto ab35e0f5a4b54e28901151e07c59f61a --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 10 for port 'addra' [C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/top.v:58]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.maindec
+Compiling module xil_defaultlib.aludec
+Compiling module xil_defaultlib.floprc
+Compiling module xil_defaultlib.flopr(WIDTH=3)
+Compiling module xil_defaultlib.flopr(WIDTH=2)
+Compiling module xil_defaultlib.controller
+Compiling module xil_defaultlib.pc
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.flopenr(WIDTH=32)
+Compiling module xil_defaultlib.flopenrc(WIDTH=32)
+Compiling module xil_defaultlib.signext
+Compiling module xil_defaultlib.sl2
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.mux2(WIDTH=32)
+Compiling module xil_defaultlib.eqcmp
+Compiling module xil_defaultlib.floprc(WIDTH=32)
+Compiling module xil_defaultlib.floprc(WIDTH=5)
+Compiling module xil_defaultlib.mux3(WIDTH=32)
+Compiling module xil_defaultlib.mux2(WIDTH=5)
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.flopr(WIDTH=32)
+Compiling module xil_defaultlib.flopr(WIDTH=5)
+Compiling module xil_defaultlib.hazard
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.mips
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="art...
+Compiling module xil_defaultlib.inst_ram
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="art...
+Compiling module xil_defaultlib.data_ram
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testbench_behav -key {Behavioral:sim_1:Functional:testbench} -tclbatch {testbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module testbench.dut.inst_ram.inst.native_mem_mapped_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module testbench.dut.data_ram.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+===============>Simulation succeeded
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1230.188 ; gain = 0.000
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/vivadofiles/lab4/Lab4/Lab4.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Sat May  6 23:57:57 2023] Launched synth_1...
+Run output will be captured here: C:/vivadofiles/lab4/Lab4/Lab4.runs/synth_1/runme.log
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/vivadofiles/lab4/Lab4/Lab4.ip_user_files/mipstest.coe' provided. It will be converted relative to IP Instance files '../../../../Lab4.ip_user_files/mipstest.coe'
+set_property -dict [list CONFIG.Load_Init_File {true} CONFIG.Coe_File {C:/vivadofiles/lab4/Lab4/Lab4.ip_user_files/mipstest.coe}] [get_ips data_ram]
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/vivadofiles/lab4/Lab4/Lab4.ip_user_files/mipstest.coe' provided. It will be converted relative to IP Instance files '../../../../Lab4.ip_user_files/mipstest.coe'
+generate_target all [get_files  C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/ip/data_ram/data_ram.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'data_ram'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'data_ram'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'data_ram'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'data_ram'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'data_ram'...
+export_ip_user_files -of_objects [get_files C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/ip/data_ram/data_ram.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/ip/data_ram/data_ram.xci] -directory C:/vivadofiles/lab4/Lab4/Lab4.ip_user_files/sim_scripts -ip_user_files_dir C:/vivadofiles/lab4/Lab4/Lab4.ip_user_files -ipstatic_source_dir C:/vivadofiles/lab4/Lab4/Lab4.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/vivadofiles/lab4/Lab4/Lab4.cache/compile_simlib/modelsim} {questa=C:/vivadofiles/lab4/Lab4/Lab4.cache/compile_simlib/questa} {riviera=C:/vivadofiles/lab4/Lab4/Lab4.cache/compile_simlib/riviera} {activehdl=C:/vivadofiles/lab4/Lab4/Lab4.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim/mipstest.coe'
+INFO: [SIM-utils-43] Exported 'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim/data_ram.mif'
+INFO: [SIM-utils-43] Exported 'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim/inst_ram.mif'
+INFO: [SIM-utils-43] Exported 'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim/mipstest.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/ip/data_ram/sim/data_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/ip/inst_ram/sim/inst_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/aludec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aludec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/eqcmp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eqcmp
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/flopenr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module flopenr
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/flopenrc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module flopenrc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/flopr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module flopr
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/floprc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module floprc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/hazard.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazard
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/maindec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module maindec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/mips.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/mux3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/pc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/signext.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signext
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/sl2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sl2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sim_1/imports/sim/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto ab35e0f5a4b54e28901151e07c59f61a --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 10 for port 'addra' [C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/top.v:58]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.maindec
+Compiling module xil_defaultlib.aludec
+Compiling module xil_defaultlib.floprc
+Compiling module xil_defaultlib.flopr(WIDTH=3)
+Compiling module xil_defaultlib.flopr(WIDTH=2)
+Compiling module xil_defaultlib.controller
+Compiling module xil_defaultlib.pc
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.flopenr(WIDTH=32)
+Compiling module xil_defaultlib.flopenrc(WIDTH=32)
+Compiling module xil_defaultlib.signext
+Compiling module xil_defaultlib.sl2
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.mux2(WIDTH=32)
+Compiling module xil_defaultlib.eqcmp
+Compiling module xil_defaultlib.floprc(WIDTH=32)
+Compiling module xil_defaultlib.floprc(WIDTH=5)
+Compiling module xil_defaultlib.mux3(WIDTH=32)
+Compiling module xil_defaultlib.mux2(WIDTH=5)
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.flopr(WIDTH=32)
+Compiling module xil_defaultlib.flopr(WIDTH=5)
+Compiling module xil_defaultlib.hazard
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.mips
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="art...
+Compiling module xil_defaultlib.inst_ram
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="art...
+Compiling module xil_defaultlib.data_ram
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testbench_behav -key {Behavioral:sim_1:Functional:testbench} -tclbatch {testbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module testbench.dut.inst_ram.inst.native_mem_mapped_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module testbench.dut.data_ram.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+===============>Simulation succeeded
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:12 . Memory (MB): peak = 1290.535 ; gain = 0.000
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/vivadofiles/lab4/Lab4/Lab4.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Sat May  6 23:59:28 2023] Launched synth_1...
+Run output will be captured here: C:/vivadofiles/lab4/Lab4/Lab4.runs/synth_1/runme.log
+export_ip_user_files -of_objects  [get_files C:/vivadofiles/lab4/mipstest.coe] -no_script -reset -force -quiet
+remove_files  C:/vivadofiles/lab4/mipstest.coe
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim/mipstest.coe'
+INFO: [SIM-utils-43] Exported 'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim/data_ram.mif'
+INFO: [SIM-utils-43] Exported 'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim/inst_ram.mif'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/ip/data_ram/sim/data_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/ip/inst_ram/sim/inst_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/aludec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aludec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/eqcmp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eqcmp
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/flopenr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module flopenr
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/flopenrc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module flopenrc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/flopr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module flopr
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/floprc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module floprc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/hazard.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazard
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/maindec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module maindec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/mips.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/mux3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/pc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/signext.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signext
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/sl2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sl2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sim_1/imports/sim/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto ab35e0f5a4b54e28901151e07c59f61a --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 10 for port 'addra' [C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/top.v:58]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.maindec
+Compiling module xil_defaultlib.aludec
+Compiling module xil_defaultlib.floprc
+Compiling module xil_defaultlib.flopr(WIDTH=3)
+Compiling module xil_defaultlib.flopr(WIDTH=2)
+Compiling module xil_defaultlib.controller
+Compiling module xil_defaultlib.pc
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.flopenr(WIDTH=32)
+Compiling module xil_defaultlib.flopenrc(WIDTH=32)
+Compiling module xil_defaultlib.signext
+Compiling module xil_defaultlib.sl2
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.mux2(WIDTH=32)
+Compiling module xil_defaultlib.eqcmp
+Compiling module xil_defaultlib.floprc(WIDTH=32)
+Compiling module xil_defaultlib.floprc(WIDTH=5)
+Compiling module xil_defaultlib.mux3(WIDTH=32)
+Compiling module xil_defaultlib.mux2(WIDTH=5)
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.flopr(WIDTH=32)
+Compiling module xil_defaultlib.flopr(WIDTH=5)
+Compiling module xil_defaultlib.hazard
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.mips
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="art...
+Compiling module xil_defaultlib.inst_ram
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="art...
+Compiling module xil_defaultlib.data_ram
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testbench_behav -key {Behavioral:sim_1:Functional:testbench} -tclbatch {testbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module testbench.dut.inst_ram.inst.native_mem_mapped_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module testbench.dut.data_ram.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+===============>Simulation succeeded
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1290.535 ; gain = 0.000
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/vivadofiles/lab4/Lab4/Lab4.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Sun May  7 00:01:16 2023] Launched synth_1...
+Run output will be captured here: C:/vivadofiles/lab4/Lab4/Lab4.runs/synth_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/vivadofiles/lab4/Lab4/Lab4.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Sun May  7 00:04:22 2023] Launched synth_1...
+Run output will be captured here: C:/vivadofiles/lab4/Lab4/Lab4.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tcsg324-3
+INFO: [Netlist 29-17] Analyzing 57 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1378.020 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 13 instances were transformed.
+  LDCP => LDCP (GND, LUT3, LUT3, LDCE, VCC): 1 instances
+  RAM32M => RAM32M (inverted pins: WCLK) (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 12 instances
+
+open_run: Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 1496.582 ; gain = 206.047
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/new/seg7.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/regfile.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/new/top_display.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/new/display.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/new/seg7.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/regfile.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/new/top_display.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/new/display.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/vivadofiles/data_ram/data_ram.srcs/sources_1/new/display.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/vivadofiles/data_ram/data_ram.srcs/sources_1/new/seg7.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/vivadofiles/data_ram/data_ram.srcs/sources_1/new/top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/new/seg7.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/regfile.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/new/top_display.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/new/display.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/vivadofiles/data_ram/data_ram.srcs/sources_1/new/display.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/vivadofiles/data_ram/data_ram.srcs/sources_1/new/seg7.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/vivadofiles/data_ram/data_ram.srcs/sources_1/new/top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/new/seg7.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/regfile.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/new/top_display.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/new/display.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/top.v:]
+set_property flow {Vivado Synthesis 2018} [get_runs synth_1]
+create_run synth_2 -flow {Vivado Synthesis 2018} -strategy {Vivado Synthesis Defaults} -report_strategy {Vivado Synthesis Default Reports}
+Run is defaulting to srcset: sources_1
+Run is defaulting to constrset: constrs_1
+Run is defaulting to part: xc7a100tcsg324-3
+current_run [get_runs synth_2]
+set_property part xc7a100tcsg324-1 [current_project]
+WARNING: [IP_Flow 19-2162] IP 'data_ram' is locked:
+* Current project part 'xc7a100tcsg324-1' and the part 'xc7a100tcsg324-3' used to customize the IP 'data_ram' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'inst_ram' is locked:
+* Current project part 'xc7a100tcsg324-1' and the part 'xc7a100tcsg324-3' used to customize the IP 'inst_ram' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+current_project data_ram
+current_project Lab4
+set_property flow {Vivado Implementation 2017} [get_runs impl_2]
+current_project data_ram
+current_project Lab4
+close_design
+upgrade_ip -vlnv xilinx.com:ip:blk_mem_gen:8.4 [get_ips  data_ram] -log ip_upgrade.log
+Upgrading 'data_ram'
+INFO: [IP_Flow 19-3420] Updated data_ram to use current project options
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'data_ram'...
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/vivadofiles/lab4/Lab4/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips data_ram] -no_script -sync -force -quiet
+generate_target all [get_files  C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/ip/data_ram/data_ram.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'data_ram'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'data_ram'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'data_ram'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'data_ram'...
+export_ip_user_files -of_objects [get_files C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/ip/data_ram/data_ram.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/ip/data_ram/data_ram.xci] -directory C:/vivadofiles/lab4/Lab4/Lab4.ip_user_files/sim_scripts -ip_user_files_dir C:/vivadofiles/lab4/Lab4/Lab4.ip_user_files -ipstatic_source_dir C:/vivadofiles/lab4/Lab4/Lab4.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/vivadofiles/lab4/Lab4/Lab4.cache/compile_simlib/modelsim} {questa=C:/vivadofiles/lab4/Lab4/Lab4.cache/compile_simlib/questa} {riviera=C:/vivadofiles/lab4/Lab4/Lab4.cache/compile_simlib/riviera} {activehdl=C:/vivadofiles/lab4/Lab4/Lab4.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+upgrade_ip -vlnv xilinx.com:ip:blk_mem_gen:8.4 [get_ips  inst_ram] -log ip_upgrade.log
+Upgrading 'inst_ram'
+INFO: [IP_Flow 19-3420] Updated inst_ram to use current project options
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'inst_ram'...
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/vivadofiles/lab4/Lab4/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips inst_ram] -no_script -sync -force -quiet
+generate_target all [get_files  C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/ip/inst_ram/inst_ram.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'inst_ram'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'inst_ram'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'inst_ram'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'inst_ram'...
+export_ip_user_files -of_objects [get_files C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/ip/inst_ram/inst_ram.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/ip/inst_ram/inst_ram.xci] -directory C:/vivadofiles/lab4/Lab4/Lab4.ip_user_files/sim_scripts -ip_user_files_dir C:/vivadofiles/lab4/Lab4/Lab4.ip_user_files -ipstatic_source_dir C:/vivadofiles/lab4/Lab4/Lab4.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/vivadofiles/lab4/Lab4/Lab4.cache/compile_simlib/modelsim} {questa=C:/vivadofiles/lab4/Lab4/Lab4.cache/compile_simlib/questa} {riviera=C:/vivadofiles/lab4/Lab4/Lab4.cache/compile_simlib/riviera} {activehdl=C:/vivadofiles/lab4/Lab4/Lab4.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+current_project data_ram
+current_project Lab4
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim/mipstest.coe'
+INFO: [SIM-utils-43] Exported 'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim/data_ram.mif'
+INFO: [SIM-utils-43] Exported 'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim/inst_ram.mif'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/ip/data_ram/sim/data_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/ip/inst_ram/sim/inst_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/aludec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aludec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/eqcmp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eqcmp
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/flopenr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module flopenr
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/flopenrc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module flopenrc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/flopr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module flopr
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/floprc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module floprc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/hazard.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazard
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/maindec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module maindec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/mips.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/mux3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/pc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/signext.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signext
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/sl2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sl2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sim_1/imports/sim/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto ab35e0f5a4b54e28901151e07c59f61a --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 10 for port 'addra' [C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/top.v:58]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.maindec
+Compiling module xil_defaultlib.aludec
+Compiling module xil_defaultlib.floprc
+Compiling module xil_defaultlib.flopr(WIDTH=3)
+Compiling module xil_defaultlib.flopr(WIDTH=2)
+Compiling module xil_defaultlib.controller
+Compiling module xil_defaultlib.pc
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.flopenr(WIDTH=32)
+Compiling module xil_defaultlib.flopenrc(WIDTH=32)
+Compiling module xil_defaultlib.signext
+Compiling module xil_defaultlib.sl2
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.mux2(WIDTH=32)
+Compiling module xil_defaultlib.eqcmp
+Compiling module xil_defaultlib.floprc(WIDTH=32)
+Compiling module xil_defaultlib.floprc(WIDTH=5)
+Compiling module xil_defaultlib.mux3(WIDTH=32)
+Compiling module xil_defaultlib.mux2(WIDTH=5)
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.flopr(WIDTH=32)
+Compiling module xil_defaultlib.flopr(WIDTH=5)
+Compiling module xil_defaultlib.hazard
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.mips
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="art...
+Compiling module xil_defaultlib.inst_ram
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="art...
+Compiling module xil_defaultlib.data_ram
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testbench_behav -key {Behavioral:sim_1:Functional:testbench} -tclbatch {testbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module testbench.dut.inst_ram.inst.native_mem_mapped_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module testbench.dut.data_ram.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+===============>Simulation succeeded
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 2113.703 ; gain = 10.895
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_runs synth_2 -jobs 4
+[Sun May  7 00:11:57 2023] Launched synth_2...
+Run output will be captured here: C:/vivadofiles/lab4/Lab4/Lab4.runs/synth_2/runme.log
+open_run synth_2 -name synth_2
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tcsg324-1
+INFO: [Netlist 29-17] Analyzing 57 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2122.219 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 13 instances were transformed.
+  LDCP => LDCP (GND, LUT3, LUT3, LDCE, VCC): 1 instances
+  RAM32M => RAM32M (inverted pins: WCLK) (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 12 instances
+
+current_project data_ram
+current_project Lab4
+set_property package_pin "" [get_ports [list  rst]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list rst]]
+place_ports rst V11
+set_property package_pin "" [get_ports [list  control]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list control]]
+place_ports control V12
+set_property IOSTANDARD LVCMOS33 [get_ports [list {ans[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {ans[1]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {ans[2]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {ans[3]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {ans[4]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {ans[5]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {ans[6]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {ans[7]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list clk]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {seat[8]} {seat[7]} {seat[6]} {seat[5]} {seat[4]} {seat[3]} {seat[2]} {seat[1]} {seat[0]}]]
+place_ports {ans[0]} J17
+place_ports {ans[1]} J18
+place_ports {ans[2]} T9
+place_ports {ans[3]} J14
+place_ports {ans[4]} P14
+place_ports {ans[5]} T14
+place_ports {ans[6]} K2
+place_ports {ans[7]} U13
+place_ports rst V10
+place_ports control V11
+place_ports clk E3
+reset_run synth_2
+launch_runs synth_2 -jobs 4
+[Sun May  7 00:38:16 2023] Launched synth_2...
+Run output will be captured here: C:/vivadofiles/lab4/Lab4/Lab4.runs/synth_2/runme.log
+close_design
+open_run synth_2 -name synth_2
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tcsg324-1
+INFO: [Netlist 29-17] Analyzing 57 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2695.398 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 13 instances were transformed.
+  LDCP => LDCP (GND, LUT3, LUT3, LDCE, VCC): 1 instances
+  RAM32M => RAM32M (inverted pins: WCLK) (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 12 instances
+
+set_property IOSTANDARD LVCMOS33 [get_ports [list {seg[6]} {seg[5]} {seg[4]} {seg[3]} {seg[2]} {seg[1]} {seg[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {seat[8]} {seat[7]} {seat[6]} {seat[5]} {seat[4]} {seat[3]} {seat[2]} {seat[1]} {seat[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {ans[7]} {ans[6]} {ans[5]} {ans[4]} {ans[3]} {ans[2]} {ans[1]} {ans[0]}]]
+place_ports clk E3
+place_ports control V10
+place_ports rst V11
+place_ports {seg[0]} L18
+place_ports {seg[1]} T11
+place_ports {seg[2]} P14
+place_ports {seg[2]} P15
+place_ports {seg[3]} K13
+place_ports {seg[4]} K16
+place_ports {seg[5]} R10
+place_ports {seg[6]} T10
+place_ports {ans[0]} J17
+place_ports {ans[1]} J18
+place_ports {ans[2]} T9
+place_ports {ans[3]} J14
+place_ports {ans[4]} P14
+place_ports {ans[5]} T14
+place_ports {ans[6]} K2
+place_ports {ans[7]} U13
+place_ports {seat[0]} J15
+place_ports {seat[1]} L16
+place_ports {seat[2]} M13
+place_ports {seat[3]} R15
+place_ports {seat[4]} R17
+place_ports {seat[5]} T18
+place_ports {seat[6]} U18
+place_ports {seat[7]} R13
+place_ports {seat[8]} T8
+set_property IOSTANDARD LVCMOS33 [get_ports [list clk]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list control]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list rst]]
+file mkdir C:/vivadofiles/lab4/Lab4/Lab4.srcs/constrs_1/new
+close [ open C:/vivadofiles/lab4/Lab4/Lab4.srcs/constrs_1/new/constrain.xdc w ]
+add_files -fileset constrs_1 C:/vivadofiles/lab4/Lab4/Lab4.srcs/constrs_1/new/constrain.xdc
+set_property target_constrs_file C:/vivadofiles/lab4/Lab4/Lab4.srcs/constrs_1/new/constrain.xdc [current_fileset -constrset]
+save_constraints -force
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2997.211 ; gain = 0.000
+reset_run synth_2
+launch_runs impl_2 -jobs 4
+WARNING: [Project 1-478] Design 'synth_2' is stale and will not be used when launching 'impl_2'
+[Sun May  7 00:46:24 2023] Launched synth_2...
+Run output will be captured here: C:/vivadofiles/lab4/Lab4/Lab4.runs/synth_2/runme.log
+[Sun May  7 00:46:24 2023] Launched impl_2...
+Run output will be captured here: C:/vivadofiles/lab4/Lab4/Lab4.runs/impl_2/runme.log
+launch_runs impl_2 -to_step write_bitstream -jobs 4
+[Sun May  7 00:49:22 2023] Launched impl_2...
+Run output will be captured here: C:/vivadofiles/lab4/Lab4/Lab4.runs/impl_2/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.3
+  **** Build date : Dec  7 2018-00:40:27
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292708875A
+set_property PROGRAM.FILE {C:/vivadofiles/lab4/Lab4/Lab4.runs/impl_2/top_display.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/vivadofiles/lab4/Lab4/Lab4.runs/impl_2/top_display.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw
+refresh_design
+INFO: [Netlist 29-17] Analyzing 57 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/vivadofiles/lab4/Lab4/Lab4.srcs/constrs_1/new/constrain.xdc]
+Finished Parsing XDC File [C:/vivadofiles/lab4/Lab4/Lab4.srcs/constrs_1/new/constrain.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 4051.059 ; gain = 12.211
+reset_run synth_2
+launch_runs impl_2 -to_step write_bitstream -jobs 4
+WARNING: [Project 1-478] Design 'synth_2' is stale and will not be used when launching 'impl_2'
+[Sun May  7 00:54:34 2023] Launched synth_2...
+Run output will be captured here: C:/vivadofiles/lab4/Lab4/Lab4.runs/synth_2/runme.log
+[Sun May  7 00:54:34 2023] Launched impl_2...
+Run output will be captured here: C:/vivadofiles/lab4/Lab4/Lab4.runs/impl_2/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.3
+  **** Build date : Dec  7 2018-00:40:27
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292708875A
+set_property PROGRAM.FILE {C:/vivadofiles/lab4/Lab4/Lab4.runs/impl_2/top_display.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/vivadofiles/lab4/Lab4/Lab4.runs/impl_2/top_display.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292708875A
+close_hw
+close_design
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim/mipstest.coe'
+INFO: [SIM-utils-43] Exported 'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim/data_ram.mif'
+INFO: [SIM-utils-43] Exported 'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim/inst_ram.mif'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/ip/data_ram/sim/data_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/ip/inst_ram/sim/inst_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/aludec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aludec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/eqcmp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eqcmp
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/flopenr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module flopenr
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/flopenrc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module flopenrc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/flopr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module flopr
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/floprc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module floprc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/hazard.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazard
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/maindec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module maindec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/mips.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/mux3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/pc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/signext.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signext
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/sl2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sl2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadofiles/lab4/Lab4/Lab4.srcs/sim_1/imports/sim/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto ab35e0f5a4b54e28901151e07c59f61a --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 10 for port 'addra' [C:/vivadofiles/lab4/Lab4/Lab4.srcs/sources_1/imports/ex4/rtl/top.v:58]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.maindec
+Compiling module xil_defaultlib.aludec
+Compiling module xil_defaultlib.floprc
+Compiling module xil_defaultlib.flopr(WIDTH=3)
+Compiling module xil_defaultlib.flopr(WIDTH=2)
+Compiling module xil_defaultlib.controller
+Compiling module xil_defaultlib.pc
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.flopenr(WIDTH=32)
+Compiling module xil_defaultlib.flopenrc(WIDTH=32)
+Compiling module xil_defaultlib.signext
+Compiling module xil_defaultlib.sl2
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.mux2(WIDTH=32)
+Compiling module xil_defaultlib.eqcmp
+Compiling module xil_defaultlib.floprc(WIDTH=32)
+Compiling module xil_defaultlib.floprc(WIDTH=5)
+Compiling module xil_defaultlib.mux3(WIDTH=32)
+Compiling module xil_defaultlib.mux2(WIDTH=5)
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.flopr(WIDTH=32)
+Compiling module xil_defaultlib.flopr(WIDTH=5)
+Compiling module xil_defaultlib.hazard
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.mips
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="art...
+Compiling module xil_defaultlib.inst_ram
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="art...
+Compiling module xil_defaultlib.data_ram
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/vivadofiles/lab4/Lab4/Lab4.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testbench_behav -key {Behavioral:sim_1:Functional:testbench} -tclbatch {testbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module testbench.dut.inst_ram.inst.native_mem_mapped_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module testbench.dut.data_ram.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+===============>Simulation succeeded
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 4062.949 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/vivadofiles/lab4/Lab4/Lab4.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun May  7 01:02:19 2023...
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun May  7 09:36:28 2023...

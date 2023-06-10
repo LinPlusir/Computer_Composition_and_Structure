@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed May 17 15:42:15 2023
+# Process ID: 9872
+# Current directory: D:/ALL_Project/PCexp/Lab5_new
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent41612 D:\ALL_Project\PCexp\Lab5_new\Lab5_new.xpr
+# Log file: D:/ALL_Project/PCexp/Lab5_new/vivado.log
+# Journal file: D:/ALL_Project/PCexp/Lab5_new\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/ALL_Project/PCexp/Lab5_new/Lab5_new.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config D:/ALL_Project/PCexp/Lab5_new/tb_top_behav.wcfg
+source tb_top.tcl
+run all
+add_bp {D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/d_cache_wb_2way.v} 43
+add_bp {D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/d_cache_wb_2way.v} 42
+add_bp {D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/d_cache_wb_2way.v} 41
+remove_bps -file {D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/d_cache_wb_2way.v} -line 42
+remove_bps -file {D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/d_cache_wb_2way.v} -line 41
+remove_bps -file {D:/ALL_Project/PCexp/Lab5_new/Lab5_new.srcs/sources_1/imports/exp2/soc_axi_lite_loongson/rtl/myCPU/d_cache_wb_2way.v} -line 43
+update_compile_order -fileset sources_1
+close_sim

@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Jun  9 13:11:12 2023
+# Process ID: 26720
+# Current directory: D:/ALL_Project/PCexp/Lab5_new
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent38576 D:\ALL_Project\PCexp\Lab5_new\Lab5_new.xpr
+# Log file: D:/ALL_Project/PCexp/Lab5_new/vivado.log
+# Journal file: D:/ALL_Project/PCexp/Lab5_new\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/ALL_Project/PCexp/Lab5_new/Lab5_new.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:08 . Memory (MB): peak = 684.254 ; gain = 99.797
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jun  9 13:13:54 2023...
